@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: blue;
+  font-size: 35px;
+}
+
+h2 {
+  color: #333;
+}
+
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-card {
+  background: white;
+  margin: 15px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px gray;
+}
+
+.user-card h3 {
+  color: blue;
+}
+
+.user-card p {
+  color: gray;
+}
